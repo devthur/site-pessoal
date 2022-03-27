@@ -1,0 +1,84 @@
+body {
+    background-image: url("img/background-mypage.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-color: #323232;
+}
+
+#title, .subtitle, .post_title, .textosimples, .localizatxt {
+    color: #fff;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.perfil_image {
+    border-radius: 50%;
+    border: 3px solid yellowgreen;
+    display: block;
+    margin: auto
+}
+
+a {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 34px;
+    font-style: normal;
+}
+
+.subtitle {
+    font-size: 17px;
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.post_title {
+    font-size: 16px;
+    color: white;
+}
+
+.textosimples {
+    font-size: 13px;
+    color: whitesmoke;
+}
+
+.medidas {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+}
+
+.post_image {
+    margin-bottom: 15px;
+    display: block;
+    margin: auto;
+}
+
+.email, .logoredes {
+    width: 30px;
+}
+
+.post_content img {
+  margin: 10px;
+  max-height: 250px;
+}
+
+.localizatxt .localizaimg {
+    display: inline-block;
+    margin: auto;
+}
