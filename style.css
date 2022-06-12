@@ -16,7 +16,8 @@ body {
     border-radius: 50%;
     border: 3px solid yellowgreen;
     display: block;
-    margin: auto
+    margin: auto;
+    max-height: 250px
 }
 
 a {
